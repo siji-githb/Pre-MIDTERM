@@ -4,44 +4,44 @@ body {
     margin: 0;
     padding: 0;
 }
-.container{
+.container1{
     padding: 10px;
     color: #ffffff;
     text-align: left;
     margin-top: 50px;
     background-color: #111D4A;
 }
-.container > h1 {
+.container1 > h1 {
     display: inline-block;
     position: relative;
     left: 210px;
 }
-.container > h1:nth-child(2) {
+.container1 > h1:nth-child(2) {
     border: #FFBE0B 2px solid;
     color: #FF1861;
     background-color: #FFBE0B;
     border-radius: 5px;
 }
-.container > h2 {
+.container1 > h2 {
     font-weight: lighter;
     display: inline-block;
     margin-left: 20px;
     position: relative;
 
 }
-.container > h2:nth-child(3) {
+.container1 > h2:nth-child(3) {
     display: inline-block;
     left: 330px;
 }
-.container > h2:nth-child(4) {
+.container1 > h2:nth-child(4) {
     display: inline-block;
     left: 360px;
 }
-.container > h2:nth-child(5) {
+.container1 > h2:nth-child(5) {
     display: inline-block;
     left: 390px;
 }
-.container > h2:nth-child(6) {
+.container1 > h2:nth-child(6) {
     font-weight: 700;
     display: inline-block;
     left: 600px;
@@ -57,15 +57,16 @@ body {
     width: 397px;
     height: 105px;
 }
-.banner1 {
+.crmc{
     width: 464px;
     height: 373.06px;
     position: relative;
     top: 175px;
     left: 228px;
     border: 1px solid #111D4A;
+    border-radius: 10px ;
 }
-.banner2 {
+.banner {
     position: relative;
     bottom: 150px;
     left: 316px;
@@ -165,12 +166,12 @@ body {
     top: 209px;
 }
 .line6 {
-    width: 1292.5px;
-    color: black;
+    width: 1400px;
+    color: black ;
     position: relative;
-    left: 67px;
     bottom: 1800px;
-
+    border-style: solid;
+    border-color: #000000;
 }
 .image1 {
     position: relative;
@@ -207,13 +208,13 @@ body {
     left: 260px;
     font-weight: lighter;
 }
-.container5 {
+/* .container5 {
     width: 1440px;
     height: 513px;
     background-color: #8338EC;
     position: relative;
     bottom: 1020px;
-}
+} */
 .image2 {
     position: relative;
     left: 874px;
@@ -245,73 +246,73 @@ body {
     color: white;
     position: relative;
     top: 30px;
-    left: 480px;
-}
-.k {
-    width: 108.43px;
-    height: 48px;
-    font-size: 40px;
-    color: white;
-    position: relative;
-    left: 295.85px;
-    bottom: 1200px;
-}
-.i {
-    width: 108.43px;
-    height: 48px;
-    font-size: 40px;
-    color: white;
-    position: relative;
-    left: 671.66px;
-    bottom: 1280px;
-}
-.n {
-    width: 108.43px;
-    height: 48px;
-    font-size: 40px;
-    color: white;
-    position: relative;
-    left: 1047.47px;
-    bottom: 1360px;
-}
-.t {
-    width: 124.33px;
-    height: 24px;
-    size: 20px;
-    color: white;
-    font-weight: lighter;
-    position: relative;
-    left: 290px;
-    bottom: 1400px;
-}
-.s {
-    width: 124.33px;
-    height: 24px;
-    size: 20px;
-    color: white;
-    font-weight: lighter;
-    position: relative;
-    left: 670px;
-    bottom: 1445px;
+    left: 500px;
 }
 .a {
+    width: 108.43px;
+    height: 48px;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    left: 310px;
+    bottom: 1200px;
+}
+.b {
+    width: 108.43px;
+    height: 48px;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    left: 700px;
+    bottom: 1280px;
+}
+.c {
+    width: 108.43px;
+    height: 48px;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    left: 1070px;
+    bottom: 1360px;
+}
+.d {
     width: 124.33px;
     height: 24px;
     size: 20px;
     color: white;
     font-weight: lighter;
     position: relative;
-    left: 1030px;
+    left: 308px;
+    bottom: 1400px;
+}
+.e {
+    width: 124.33px;
+    height: 24px;
+    size: 20px;
+    color: white;
+    font-weight: lighter;
+    position: relative;
+    left: 698px;
+    bottom: 1445px;
+}
+.f {
+    width: 124.33px;
+    height: 24px;
+    size: 20px;
+    color: white;
+    font-weight: lighter;
+    position: relative;
+    left: 1060px;
     bottom: 1480px;
 }
-.aca {
+.ac {
     background-color: #8338EC;
     width: 1700px;
     height: 513px;
     position: relative;
-    bottom: 1408px;
+    bottom: 1407px;
 }
-.aca > h1 {
+.ac > h1 {
     position: relative;
     top: 55px;
     left: 1108px;
@@ -430,4 +431,28 @@ body {
     position: relative;
     left: 67px;
     bottom: 1840px;
+}
+.rec {
+    border: 2px;
+    position: relative;
+    left: 231px;
+    bottom: 2870px;  
+}
+.rec2 {
+    border: 2px;
+    position: relative;
+    left: 909px;
+    bottom: 2700px;
+}
+.power {
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    bottom: 2485px;
+}
+.aright {
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    bottom: 2505px;
 }
